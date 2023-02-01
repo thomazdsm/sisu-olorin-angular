@@ -1,0 +1,8 @@
+{
+    "appService.zipIgnorePattern": [
+        "node_modules{,/**}",
+        ".vscode{,/**}"
+    ],
+    "appService.defaultWebAppToDeploy": "/subscriptions/85ee3160-c0db-4b31-bbd4-4936f42c8b76/AppServices/subscriptions/85ee3160-c0db-4b31-bbd4-4936f42c8b76/resourceGroups/Sisu-Olorin/providers/Microsoft.Web/sites/so-galeria",
+    "appService.deploySubpath": "."
+}
