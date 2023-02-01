@@ -51,6 +51,5 @@ jobs:
         uses: azure/webapps-deploy@v2
         with:
           app-name: 'galeria-angular'
-          slot-name: 'Production'
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_3A2D929701BF41D3859CC8BA03D63F09 }}
-          package: .
+          package: ./dist/galeria-angular
