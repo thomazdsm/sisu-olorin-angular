@@ -3,7 +3,7 @@
     "version": 1,
     "newProjectRoot": "projects",
     "projects": {
-        "adminlte": {
+        "sisu-olorin": {
             "projectType": "application",
             "schematics": {
                 "@schematics/angular:component": {
@@ -17,7 +17,7 @@
                 "build": {
                     "builder": "@angular-devkit/build-angular:browser",
                     "options": {
-                        "outputPath": "dist/adminlte",
+                        "outputPath": "dist/sisu-olorin",
                         "index": "src/index.html",
                         "main": "src/main.ts",
                         "polyfills": "src/polyfills.ts",
@@ -77,18 +77,18 @@
                 "serve": {
                     "builder": "@angular-devkit/build-angular:dev-server",
                     "options": {
-                        "browserTarget": "adminlte:build"
+                        "browserTarget": "sisu-olorin:build"
                     },
                     "configurations": {
                         "production": {
-                            "browserTarget": "adminlte:build:production"
+                            "browserTarget": "sisu-olorin:build:production"
                         }
                     }
                 },
                 "extract-i18n": {
                     "builder": "@angular-devkit/build-angular:extract-i18n",
                     "options": {
-                        "browserTarget": "adminlte:build"
+                        "browserTarget": "sisu-olorin:build"
                     }
                 },
                 "test": {
@@ -122,11 +122,11 @@
                     "builder": "@angular-devkit/build-angular:protractor",
                     "options": {
                         "protractorConfig": "e2e/protractor.conf.js",
-                        "devServerTarget": "adminlte:serve"
+                        "devServerTarget": "sisu-olorin:serve"
                     },
                     "configurations": {
                         "production": {
-                            "devServerTarget": "adminlte:serve:production"
+                            "devServerTarget": "sisu-olorin:serve:production"
                         }
                     }
                 }
